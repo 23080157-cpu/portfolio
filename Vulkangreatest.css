@@ -169,8 +169,9 @@ button:active {
     margin-top: 2px;
 }
 
+/*https://sirv.com/help/articles/hover-change-image/#:~:text=Pure%20CSS%20to%20swap%20image,and%20works%20on%20all%20browsers.&text=That%20on%2Dhover%20rollover%20effect,achieved%20purely%20with%20CSS%20&%20HTML. */
 .image-rollover-container {
-    position: relative; /* Essential for positioning the overlay image */
+    position: relative; 
     display: inline-block; /* Adjust as needed for layout */
     cursor: pointer; /* Indicates interactivity */
 }
@@ -186,3 +187,4 @@ button:active {
 .image-rollover-container:hover .hover-image {
     opacity: 1; /* Show the hover image on hover */
 }
+
